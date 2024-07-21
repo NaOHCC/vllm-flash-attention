@@ -263,8 +263,8 @@ class NinjaBuildExtension(BuildExtension):
         super().__init__(*args, **kwargs)
 
 
-PYTORCH_VERSION = "2.3.1"
-CUDA_VERSION = "12.1"
+PYTORCH_VERSION = "2.3.0"
+CUDA_VERSION = "11.8"
 
 setup(
     name="vllm-flash-attn",
